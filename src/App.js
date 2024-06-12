@@ -9,7 +9,7 @@ import Authentication from "./routes/sing-in/Authentication";
 import Shop from "./routes/shop/Shop";
 import Checkout from "./routes/checkout/Checkout";
 import Navigation from "./routes/navigation/Navigation";
-import { setCurrentUser } from "./store/user/user.action";
+// import { setCurrentUser } from "./store/user/user.action";
 // App nested in <BrowserRouter> component
 const App = () => {
   const dispatch = useDispatch();
