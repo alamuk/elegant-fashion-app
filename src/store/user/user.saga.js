@@ -106,7 +106,7 @@ export function* onSignUpStart() {
 }
 
 export function* onSignUpSuccess() {
-  takeLatest(USER_ACTION_TYPE.SIGN_UP_SUCCESS, signIpAfterSignUp);
+  yield takeLatest(USER_ACTION_TYPE.SIGN_UP_SUCCESS, signIpAfterSignUp);
 }
 
 export function* onSignOutStart() {

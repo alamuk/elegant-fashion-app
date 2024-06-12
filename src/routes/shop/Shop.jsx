@@ -10,7 +10,7 @@ const Shop = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCategoriesStart());
-  }, []);
+  }, [dispatch]);
 
   // const getCategoriesMap = () => {
   // const categoriesArray = await getCategoriesAndDocuments("caregories");
