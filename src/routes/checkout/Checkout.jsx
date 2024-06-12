@@ -6,7 +6,7 @@ import {
   selectCartTotal,
 } from "../../store/cart/cart.selector";
 import PaymentForm from "../../components/payment-form/PaymentForm";
-import { Suspense } from "react";
+// import { Suspense } from "react";
 
 const Checkout = () => {
   const cartItems = useSelector(selectCartItems);
