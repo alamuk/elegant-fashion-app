@@ -8,6 +8,10 @@
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "dotenv": "^16.4.5",
     "firebase": "^10.12.2",
     "react": "^17.0.2",
@@ -23,13 +27,16 @@
     "sass": "^1.77.2",
     "stripe": "^15.10.0",
     "styled-components": "^6.1.11",
+    "typescript": "^5.4.5",
     "web-vitals": "2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "server": "netlify dev"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
   }
 }
